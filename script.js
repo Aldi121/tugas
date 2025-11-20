@@ -19,7 +19,7 @@ function tampilkanGambar(src) {
 
 
 btn1.addEventListener("click", function () {
-    tampilkanGambar("militer.jpg");
+    tampilkanGambar("wisnu militer.jpg");
 });
 
 // Tombol 2
