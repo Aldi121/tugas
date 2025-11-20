@@ -19,6 +19,7 @@ body {
 }
 .gambar-selection {
     word-spacing: 20px;
+    align-items: center;;
 }
 
 img {
@@ -27,10 +28,15 @@ img {
 }
 
 video {
-    height: 325px;
-    width: auto;
+    height: 500px;
+    width: 500px;
+    align-items: center;
 }
 
 .gambar {
-    word-spacing: 100px;
+    text-align: center;
+}
+
+.video {
+    text-align:  center;
 }
