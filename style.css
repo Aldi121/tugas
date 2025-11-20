@@ -1,12 +1,11 @@
 body {
     font-weight: bold;
-    body { 
-     background: linear-gradient(260deg, #A7C7E7, #BFD8FF, #a6d0ef);
+    background: linear-gradient(260deg, #A7C7E7, #BFD8FF, #a6d0ef);
   height: 100vh;
-  color: rgb(173, 46, 46);
+  color: rgb(7, 46, 242);
   font-family: 'Poppins', sans-serif;
 }
-}
+
 
 .satu {
     font-size: 40px;
