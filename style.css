@@ -1,0 +1,30 @@
+body {
+    font-weight: bold;
+}
+
+.satu {
+    font-size: 40px;
+}
+.dua {
+    font-size: 40px;
+}
+
+.tiga {
+    font-size: 40px;
+}
+.gambar-selection {
+    word-spacing: 20px;
+}
+
+img {
+    width: 295px;
+
+}
+
+video {
+    height: 325px;
+}
+
+.gambar {
+    word-spacing: 100px;
+}
