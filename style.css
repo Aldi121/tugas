@@ -1,53 +1,59 @@
 body {
     font-weight: bold;
-    
-  color: rgb(7, 46, 242);
-  font-family: 'Poppins', sans-serif;
-  background-color: #e5e5f7;
-background-color: #e5e5f7;
-opacity: 1;
-background-image: linear-gradient(to right, #ffffff, #ffffff 20px, #e5e5f7 20px, #e5e5f7 );
-background-size: 40px 100%;
+    color: rgb(7, 46, 242);
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #000; 
+    opacity: 1;
+    background-image: linear-gradient(
+        to right,
+        #000000,
+        #000000 20px,
+        #333333 20px,
+        #333333
+    );
+    background-size: 40px 100%;
 }
+
 .anggota {
-  background: rgb(64, 94, 121);
-  padding: 4px 8px;
+  background: rgb(241, 133, 0);
+  color: rgb(0, 149, 255);
+  padding: 8px 15px 8px 35px;
   display: inline-block;
-  border-radius: 9px;
+  border-radius: 10px;
 }
 
-.satu,  .dua, .tiga {
-    background: rgb(137, 167, 194);
-  padding: 4px 8px;
+.satu, .dua, .tiga {
+  background: #a971cb;
+  padding: 10px 20px;
   display: inline-block;
-  border-radius: 9px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
 }
- 
+
+.satu:hover, .dua:hover, .tiga:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
 .gambar-selection {
-    background: rgb(47, 87, 127);
+  background: rgb(0, 174, 255);
   padding: 4px 8px;
   display: inline-block;
   border-radius: 9px;
+  word-spacing: 20px;
 }
 
-.satu {
+.satu, .dua, .tiga {
     font-size: 40px;
-}
-.dua {
-    font-size: 40px;
-}
-
-.tiga {
-    font-size: 40px;
-}
-.gambar-selection {
-    word-spacing: 20px;
-    align-items: center;;
 }
 
 img {
     width: 295px;
-
 }
 
 video {
@@ -66,13 +72,11 @@ video {
     display: none;
     opacity: 0;
     transform: scale(0.7);
-    transition: opacity 0.6s ease
-    transform 0.6 ease;
-    
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .video {
-    text-align:  center;
+    text-align: center;
 }
 
 .gambar img.muncul {
