@@ -9,13 +9,26 @@ opacity: 1;
 background-image: linear-gradient(to right, #ffffff, #ffffff 20px, #e5e5f7 20px, #e5e5f7 );
 background-size: 40px 100%;
 }
-.anggota, .satu,  .dua, .tiga {
-  background: rgb(137, 167, 194);
+.anggota {
+  background: rgb(64, 94, 121);
   padding: 4px 8px;
   display: inline-block;
   border-radius: 9px;
 }
 
+.satu,  .dua, .tiga {
+    background: rgb(137, 167, 194);
+  padding: 4px 8px;
+  display: inline-block;
+  border-radius: 9px;
+}
+ 
+.gambar-selection {
+    background: rgb(47, 87, 127);
+  padding: 4px 8px;
+  display: inline-block;
+  border-radius: 9px;
+}
 
 .satu {
     font-size: 40px;
