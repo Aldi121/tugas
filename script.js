@@ -17,6 +17,13 @@ function tampilkanGambar(src) {
     }, 50);
 }
 
+tombol.addEventListener("click", () => {
+    setTimeout(() => {
+        gambar.classList.add("muncul");
+        teks.classList.add("muncul");
+    }, 30);
+});
+
 
 btn1.addEventListener("click", function () {
     tampilkanGambar("wizzy.jpg");
@@ -30,4 +37,17 @@ btn2.addEventListener("click", function () {
 // Tombol 3
 btn3.addEventListener("click", function () {
     tampilkanGambar("gambar3.jpg");
+});
+
+const tombol = document.getElementById("tombol");
+const semuaGambar = document.querySelectorAll(".gambar-item");
+
+tombol.addEventListener("click", () => {
+    setTimeout(() => {
+        semuaGambar.forEach((item, index) => {
+            setTimeout(() => {
+                item.classList.add("muncul");
+            }, index * 120); // animasi muncul satu per satu
+        });
+    }, 30);
 });

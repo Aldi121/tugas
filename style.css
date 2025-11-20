@@ -77,3 +77,19 @@ video {
     opacity: 1;
     transform: scale(1);
 }
+
+.gambar-item {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: 0.4s ease;
+    margin-bottom: 20px;
+}
+
+.gambar-item.muncul {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.gambar-item img {
+    width: 280px;
+}
