@@ -1,9 +1,11 @@
 body {
     font-weight: bold;
-    background: linear-gradient(260deg, #A7C7E7, #BFD8FF, #a6d0ef);
-  height: 100vh;
   color: rgb(7, 46, 242);
   font-family: 'Poppins', sans-serif;
+  background-color: #e5e5f7;
+opacity: 1;
+background-image: radial-gradient(#444cf7 2px, #e5e5f7 2px);
+background-size: 40px 40px;
 }
 
 
