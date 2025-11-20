@@ -1,11 +1,12 @@
 body {
     font-weight: bold;
+    text-shadow: 2px 2px 2px black;
   color: rgb(7, 46, 242);
   font-family: 'Poppins', sans-serif;
   background-color: #e5e5f7;
 background-color: #e5e5f7;
 opacity: 1;
-background-image: linear-gradient(to right, #444cf7, #444cf7 20px, #e5e5f7 20px, #e5e5f7 );
+background-image: linear-gradient(to right, #ffffff, #ffffff 20px, #e5e5f7 20px, #e5e5f7 );
 background-size: 40px 100%;
 }
 
