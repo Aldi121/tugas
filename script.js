@@ -17,9 +17,16 @@ function tampilkanGambar(src) {
     }, 50);
 }
 
+tombol.addEventListener("click", () => {
+    setTimeout(() => {
+        gambar.classList.add("muncul");
+        teks.classList.add("muncul");
+    }, 30);
+});
+
 
 btn1.addEventListener("click", function () {
-    tampilkanGambar("wisnu militer.jpg");
+    tampilkanGambar("wizzy.jpg");
 });
 
 // Tombol 2
