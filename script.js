@@ -20,5 +20,6 @@ function ubahMedia(imgSrc, videoSrc) {
 }
 
 btn1.addEventListener("click", () => ubahMedia("wizzy.jpg", "gas.mp4"));
-btn2.addEventListener("click", () => ubahMedia("julian.jpg", "lele.mp4"));
-btn3.addEventListener("click", () => ubahMedia("hmm  .jpg", "alpukat.mp4"));
+btn2.addEventListener("click", () => ubahMedia("julian.jpg", "yapping.mp4"));
+btn3.addEventListener("click", () => ubahMedia("hmm.jpg", "tutor.mp4"));
+
