@@ -20,20 +20,15 @@ body {
 
 
 .satu, .dua, .tiga {
-  background: #6c7afd;
-  padding: 4px 24px;
+  background: #a971cb;
+  padding: 10px 20px;
   display: inline-block;
   border-radius: 8px;
-  color: #fff;
-  font-weight: 400;
+  color: white;
+  font-weight: 600;
   border: none;
   cursor: pointer;
-  transition: background 0.15s;
-  outline: none;
-  font-size: 16px;
-  box-shadow: none;
-  letter-spacing: normal;
-  text-transform: none;
+  transition: 0.25s;
 }
 
 .satu:hover, .dua:hover, .tiga:hover {
@@ -41,13 +36,12 @@ body {
 }
 
 .gambar-selection {
-  background: #494848;
-  padding: 10px 10px;
+  background: rgb(0, 174, 255);
+  padding: 20px 20px 20px 20px;
   display: inline-block;
   border-radius: 9px;
   word-spacing: 20px;
 }
-
 .satu, .dua, .tiga {
     font-size: 40px;
 }
