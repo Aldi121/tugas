@@ -20,8 +20,8 @@ body {
 
 
 .satu, .dua, .tiga {
-  background: #a971cb;
-  padding: 10px 20px;
+  background-color: #00AA00;
+  padding: 0px 15px;
   display: inline-block;
   border-radius: 8px;
   color: white;
@@ -31,13 +31,18 @@ body {
   transition: 0.25s;
 }
 
+.satu img, .dua img, .tiga img {
+    width: 150px;  /* sesuaikan */
+    height: 60px;
+}
+
 .satu:hover, .dua:hover, .tiga:hover {
   background: #5a6fdc;
 }
 
 .gambar-selection {
-  background: rgb(0, 174, 255);
-  padding: 20px 20px 20px 20px;
+  background-image: url('image.png');
+  padding: 30px 20px 30px 20px;
   display: inline-block;
   border-radius: 9px;
   word-spacing: 20px;
