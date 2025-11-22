@@ -20,5 +20,5 @@ function ubahMedia(imgSrc, videoSrc) {
 }
 
 btn1.addEventListener("click", () => ubahMedia("wizzy.jpg", "gas.mp4"));
-btn2.addEventListener("click", () => ubahMedia("Random Stream.jpg", "lele.mp4"));
-btn3.addEventListener("click", () => ubahMedia("gambar3.jpg", "alpukat.mp4"));
+btn2.addEventListener("click", () => ubahMedia("julian.jpg", "lele.mp4"));
+btn3.addEventListener("click", () => ubahMedia("hmm  .jpg", "alpukat.mp4"));
