@@ -1,34 +1,51 @@
 body {
     font-weight: bold;
-    
-  color: rgb(7, 46, 242);
-  font-family: 'Poppins', sans-serif;
-  background-color: #e5e5f7;
-background-color: #e5e5f7;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+
+   background-color: #e5e5f7;
 opacity: 1;
-background-image: linear-gradient(to right, #ffffff, #ffffff 20px, #e5e5f7 20px, #e5e5f7 );
-background-size: 40px 100%;
+background: repeating-linear-gradient( 45deg, #909090, #909090 10px, #636363 10px, #636363 50px );
 }
 
-
-.satu {
-    font-size: 40px;
+.anggota {
+  background: #494848;
+  color: rgb(255, 255, 255);
+  padding: 8px 15px 8px 35px;
+  display: inline-block;
+  border-radius: 10px;
 }
-.dua {
-    font-size: 40px;
+
+.satu, .dua, .tiga {
+  background: #909090;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
 }
 
-.tiga {
-    font-size: 40px;
+.satu:hover, .dua:hover, .tiga:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
 }
 .gambar-selection {
-    word-spacing: 20px;
-    align-items: center;;
+  background: #494848;
+  padding: 10px 10px;
+  display: inline-block;
+  border-radius: 9px;
+  word-spacing: 20px;
+}
+
+.satu, .dua, .tiga {
+    font-size: 40px;
 }
 
 img {
     width: 295px;
-
 }
 
 video {
@@ -47,13 +64,11 @@ video {
     display: none;
     opacity: 0;
     transform: scale(0.7);
-    transition: opacity 0.6s ease
-    transform 0.6 ease;
-    
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .video {
-    text-align:  center;
+    text-align: center;
 }
 
 .gambar img.muncul {
